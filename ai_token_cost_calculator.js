@@ -7,12 +7,15 @@ function calculateAiCost(tokensUsed) {
     cost = Math.floor ((tokensUsed-500)/100)*5 ;
     return cost;
  } 
+ else if (tokensUsed < 0) {
+    return "Invalid";
+ }
  else{
      return 0;
  }
 
 }
 
-let tokenused = 860;
+let tokenused = 600;
 console.log(calculateAiCost(tokenused));
 
