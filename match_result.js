@@ -19,7 +19,6 @@ else{
 }
 
 
-let result = matchWinner(2,2);
-console.log(result);
+
 
 

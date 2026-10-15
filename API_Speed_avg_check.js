@@ -16,4 +16,3 @@ function averageResponseTime(times) {
   return total / times.length;
 }
 
-console.log(averageResponseTime([234.23,23.44,"24",34.55]));

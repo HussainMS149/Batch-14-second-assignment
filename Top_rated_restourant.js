@@ -20,9 +20,4 @@ function topRatedRestaurant(restaurants) {
     
 }
 
-let restaurants = [{name:"Chillox",rating:4.5},{name:"Sultan's Dine",rating:4.8}, {name:"PizzaBurg",rating:5}];
-// let restaurants = [];
 
-
-
-console.log(topRatedRestaurant(restaurants));

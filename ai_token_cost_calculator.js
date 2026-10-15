@@ -16,6 +16,5 @@ function calculateAiCost(tokensUsed) {
 
 }
 
-let tokenused = 600;
-console.log(calculateAiCost(tokenused));
+
 

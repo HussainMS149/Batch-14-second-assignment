@@ -22,5 +22,4 @@ else {
 
 }
 
-let weights = "50, 60, 65, 45, 35, 100,78" ;
-console.log(isElevatorSafe(weights));
+
